@@ -19,10 +19,10 @@ ___
 #### Vilka informationer är tillgänliga och hur tillförs dessa i programmet:
 > Dagar bilen ska eller har hyrts i, samt miltalen bilen har kört anges via tangentbordet av användaren som heltal. Miltalen bilen har kört anges bara om > Dagarna bilen ska eller har hyrts i är mer än mindre än eller lika med 3.
 > 
-> Vi har tre informationer fastsatta:
-> Pris1: 500kr - Om hyresdagarna är mindre eller lika med 3
-> Pris2: 990kr - Om hyresdagarna är mer än 3
-> Pris per miltal: 2kr - Om det är Pris1 som gäller
+> Vi har tre informationer fastsatta:<br>
+> Pris1: 500kr - Om hyresdagarna är mindre eller lika med 3 (heltal)<br>
+> Pris2: 990kr - Om hyresdagarna är mer än 3 (heltal)<br>
+> Pris per miltal: 2kr - Om det är Pris1 som gäller (heltal)
 
 #### Hur kan man få fram resultatet i allmänna drag? Finns det fall där din lösning inte fungerar?
 > Priset räknas ut beroende på antal dagar bilen ska hyras. Om dagarna är mindre eller likamed 3 så räknas priset ut genom:
