@@ -25,23 +25,23 @@ ___
 > Pris per miltal: 2kr - Om det är Pris1 som gäller (heltal)
 
 #### Hur kan man få fram resultatet i allmänna drag? Finns det fall där din lösning inte fungerar?
-> Priset räknas ut beroende på antal dagar bilen ska hyras. Om dagarna är mindre eller likamed 3 så räknas priset ut genom:
-> Pris1 + (Pris per miltal * Miltal)
-> Om dagarna är mer än 3 så är det Pris2 som gäller.
-> 
+> Priset räknas ut beroende på antal dagar bilen ska hyras. Om dagarna är mindre eller likamed 3 så räknas priset ut genom:<br>
+> Pris1 + (Pris per miltal * Miltal)<br>
+> Om dagarna är mer än 3 så är det Pris2 som gäller.<br>
+> <br>
 > Lösningen fungerar inte om användaren skriver in något som inte är ett heltal, de vill säga decimaler, karaktärer, ord mm...
 
 #### Hur ser gränssnittet ut mellan användaren och programmet om det finns en kommunikation mellan användaren och programmet?
-> Användaren ska kunna ange dagar hyresbilen ska eller har hyrts i och beroende på dagarna, ska användaren ochså ha möjlighet till att ange hur många mil > bilen har åkt. Utseenden som kan vara lämpliga:
+> Användaren ska kunna ange dagar hyresbilen ska eller har hyrts i och beroende på dagarna, ska användaren ochså ha möjlighet till att ange hur många mil > bilen har åkt. Utseenden som kan vara lämpliga:<br>
 > 
-> 1)
->     Dagar bilen ska hyras: 3
->     Mil bilen har åkt: 10
->     Pris: 520kr
-> 
-> 2)  
->     Dagar bilen ska hyras: 4
->     Pris: 990kr
+> 1)<br>
+>     Dagar bilen ska hyras: 3<br>
+>     Mil bilen har åkt: 10<br>
+>     Pris: 520kr<br>
+> <br>
+> 2)  <br>
+>     Dagar bilen ska hyras: 4<br>
+>     Pris: 990kr<br>
 
 ## Psuedokod
 1. Fråga användaren hur många dagar bilen hyrdes/ska hyras i med hjälp av `cout`
