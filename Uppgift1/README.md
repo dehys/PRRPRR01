@@ -17,7 +17,7 @@ ___
 > Vi vill räkna ut vad priset blir när man vill hyra en hyresbil beroende på hur många dagar man ska hyra bilen och hur många mil bilen har kört.
 
 #### Vilka informationer är tillgänliga och hur tillförs dessa i programmet:
-> Dagar bilen ska eller har hyrts i, samt miltalen bilen har kört anges via tangentbordet av användaren som heltal. Miltalen bilen har kört anges bara om Dagarna bilen ska eller har hyrts i är mer än mindre än eller lika med 3.
+> Dagar bilen ska eller har hyrts i, samt miltalen bilen har kört anges via tangentbordet av användaren som heltal. Miltalen bilen har kört anges bara om Dagarna bilen ska eller har hyrts i är mindre än eller lika med 3.
 > 
 > Vi har tre informationer fastsatta:<br>
 > Pris1: 500kr - Om hyresdagarna är mindre eller lika med 3 (heltal)<br>
